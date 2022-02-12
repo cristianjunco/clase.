@@ -8,7 +8,7 @@ if (nombre == 12345) {
 else {
     alert ("contrasenia erronea")
 } 
- */
+
 
 let Numero1 = prompt("ingresa un numero mayor a 1000")
 
@@ -37,3 +37,10 @@ alert ("correcto el numero es mayor a 10 y menor a 50")
 else {
     alert ("numero incorrecto")
 }
+*/
+
+ let Numero = 0;
+ do{
+ Numero = prompt ("ingresar Un saludo")
+ console.log(Numero)
+ }while(parseInt(Numero))
